@@ -50,7 +50,7 @@ def main():
     loaded_model = joblib.load(model_path)
     loaded_accuracy = evaluate_model(loaded_model, X_test, y_test)
     print(f"Loaded Model Accuracy: {loaded_accuracy:.2f}")
-    print("Model loaded successfully!")
+    print("Model loaded successfully! CI/CD demo update.")
 
 
 if __name__ == "__main__":
