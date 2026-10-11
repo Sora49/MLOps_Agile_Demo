@@ -1,0 +1,35 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Python environments
+venv/
+.venv/
+env/
+**/venv/
+**/.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# Unrelated large datasets and environments
+../../rsicd_data.tgz
+../../../scikit_learn_data/
+../../../tensorflow_env/
